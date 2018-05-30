@@ -7,6 +7,8 @@
 
 # verify and install JDK (JRE is enough to run Jenkins but intalling JDK to compile java source)
 
+sudo yum -y install wget
+
 install_java()
 {
 java_rpm_file='jdk-8u171-linux-x64.rpm'
