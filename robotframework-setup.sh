@@ -40,7 +40,7 @@ robotframework_setup()
 	echo -e "\n\e[41m[ERROR]\e[0m $robotframework_src_dir failed to install....."
      fi
      
-     cd $HOME
+     cd $HOME/jenkins-setup
      cp -r $robotframework_ride_archive $robotframework_ride_base_dir
      cd $robotframework_ride_base_dir
      tar -zxvf $robotframework_ride_archive >/dev/null 2>&1
@@ -49,7 +49,7 @@ robotframework_setup()
 
      if [ $? -eq 0 ]
      then
-        echo -e "\n\e[42m[SUCCESS\e[0m $robotframework_ride_src_dir installed successfully....."
+        echo -e "\n\e[42m[SUCCESS]\e[0m $robotframework_ride_src_dir installed successfully....."
      else
         echo -e "\n\e[41m[ERROR]\e[0m $robotframework_ride_src_dir failed to install....."
      fi
