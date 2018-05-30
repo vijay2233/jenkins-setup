@@ -9,6 +9,7 @@
 source ./java-setup.sh
 source ./ant-setup.sh
 source ./robotframework-setup.sh
+source ./firewall-conf.sh
 
 jenkins_pre_setup()
 {
@@ -82,3 +83,5 @@ jenkins_setup()
 # Calling above functions
 jenkins_pre_setup
 jenkins_setup
+enable_firewall_port
+
