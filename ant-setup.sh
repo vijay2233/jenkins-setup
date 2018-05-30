@@ -44,7 +44,7 @@ install_ant()
         ant -version
     fi
  else
-     echo -e "\e[42m[INFO]\e[0m Apache Ant already installed in your system.\n"
+     echo -e "\e[42m[INFO]\e[0m Apache Ant already installed in your system."
      ant -version
      echo " "
  fi
