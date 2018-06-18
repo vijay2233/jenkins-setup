@@ -40,7 +40,7 @@ jenkins_pre_setup()
 
 jenkins_setup()
 {   
- jenkins_installer="jenkins-2.107.3-1.1.noarch.rpm"
+ jenkins_installer="jenkins-2.121.1-1.1.noarch.rpm"
 
  if [ -e /etc/init.d/jenkins ];
  then
