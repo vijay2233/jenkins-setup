@@ -61,7 +61,7 @@ jenkins_setup()
      fi
  else
     echo -e "\n\e[43m[INFO]\e[0m Downloading $jenkins_installer"
-    wget https://pkg.jenkins.io/redhat-stable/jenkins-2.107.3-1.1.noarch.rpm >/dev/null 2>&1
+    wget https://pkg.jenkins.io/redhat-stable/jenkins-2.121.1-1.1.noarch.rpm >/dev/null 2>&1
     
     if [ $? -eq 0 ]
     then
