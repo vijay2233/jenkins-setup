@@ -1,2 +1,2 @@
 # jenkins-setup
-Jenkins 2.107.3 complete setup on CentOS 7
+Jenkins 2.121.1 complete setup on CentOS 7
